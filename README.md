@@ -1,4 +1,4 @@
-# local_guide
+# Locations-App
 
 A new Flutter project.
 
