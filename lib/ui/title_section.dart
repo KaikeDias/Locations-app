@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:local_guide/ui/components/favorite_widget.dart';
 
 class TitleSection extends StatelessWidget {
   const TitleSection({super.key});
@@ -31,11 +32,7 @@ class TitleSection extends StatelessWidget {
               ],
             ),
           ),
-          Icon(
-            Icons.star,
-            color: Colors.red[400],
-          ),
-          const Text('41'),
+          FavoriteWidget(),
         ],
       ),
     );
